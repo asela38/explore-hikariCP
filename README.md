@@ -1,6 +1,20 @@
 # explore-hikariCP
 Exploring options of hikari Connection Pool
 
+Task 3: 
+
+Maven Core Plugins
+
+maven-surefire-plugin : plugin behind test
+  - ensure unit tests will run reliable and consistent results
+  - Surefire suggest reliability in execution of tests
+  - 
+maven-failsafe-plugin : integration tests
+  - this will not fail the build immediately
+  - in case if surefire was used in 'integration-test' the build would have stopped 
+    at the integration-test phase without any required cleanup
+
+
 Task 2:
 
 Add Spring-boot-starter-parent
